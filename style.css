@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+header {
+    height: 4rem;
+    background-color: rgb(243, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 100%;
+    background-color: rgb(243, 184, 184);
+    display: table;
+    float: left;
+    margin-left: 25px;
+    }
+
+    .logo h1 span {
+        font-weight: 300;
+        margin-left: 5px;
+    }
+
+main {
+    height: 30rem;
+    background-color: rgb(232, 243, 184);
+}
+
+footer {
+    height: 4rem;
+    background-color: rgb(184, 217, 243);
+}
+
