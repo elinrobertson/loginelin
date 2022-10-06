@@ -8,28 +8,48 @@
 }
 
 header {
-    height: 4rem;
-    background-color: rgb(243, 184, 184);
+    height: 5rem;
+    background-color: rgb(243, 184, 184, 0.5);
     display: flex;
     align-items: flex-start;
 }
 
 .logo {
     height: 100%;
-    background-color: rgb(243, 184, 184);
+    background-color: rgb(243, 184, 184,);
+    color: black;
     display: flex;
     float: left;
     height: 100%;
-    padding: 10px;
+    padding: 20px;
     }
 
     .logo h1 span {
         font-weight: 300;
     }
 
+h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
 main {
     height: 30rem;
-    background-color: rgb(232, 243, 184);
+    background-color: rgba(146, 234, 193, 0.961);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
@@ -37,3 +57,15 @@ footer {
     background-color: rgb(184, 217, 243);
 }
 
+.btnlogout {
+    display: none;
+    height: 26px;
+    width: 70px;
+    font-weight: bold;
+}
+
+.btnlogin {
+    height: 26px;
+    width: 70px;
+    font-weight: bold;
+}
