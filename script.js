@@ -1,6 +1,3 @@
-// const username = document.getElementById("username").value;
-// const password = document.getElementById("password").value;
-
 const logintext = document.querySelector ("h2");
 const form = document.querySelector (".form");
 const usernameinput = document.querySelector ("#username");
@@ -55,34 +52,3 @@ function logout(){
     passwordinput.value = "";
     localStorage.removeItem("successfulLogin")
 }
-
-// localStorage.setItem("username", "Fredrik");
-// localStorage.setItem("password", "12345");
-
-
-// localStorage.setItem("username", usernameinput.value);
-// localStorage.setItem("password", passwordinput.value);
-
-
-// const btn = document.getElementById("btn");
-// btn.addEventListener("click", function(){
-
-//     const username = document.getElementById("username").value;
-//     const password = document.getElementById("password").value;
-//     if (username === "Fredrik" && password === "12345"){
-//         console.log("Det stämmer");
-//         h2 = document.querySelector("h2");
-//         h2.textContent = (`Välkommen, ${username}`);
-
-//         btn.style.display = "none";
-//     } else {
-//         console.log("FEL!")
-//     }
-// });
-
-// const h2 = document.querySelector("h2").value
-// console.log("Välkommen")
-
-
-// (username === "Fredrik" && password === "12345")
-
